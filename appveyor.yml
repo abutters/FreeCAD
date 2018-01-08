@@ -55,6 +55,8 @@ build_script:
   - FreeCADCmd.exe --run-test 0
 
 #artifacts:
+  - path: '\*_*.zip'
+    name: Bits
 
 test: off  # to avoid discovering tests
 
